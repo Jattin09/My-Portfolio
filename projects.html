@@ -1,0 +1,205 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Completed cybersecurity and Python projects by Jattin Salotra.">
+
+    <title>Projects | Jattin Salotra</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- NAVIGATION -->
+    <header class="navbar">
+        <div class="nav-container">
+
+            <a href="index.html" class="logo">
+                Jattin Salotra<span>.</span>
+            </a>
+
+            <button class="menu-toggle"
+                    aria-label="Toggle navigation"
+                    aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <nav class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="projects.html" class="active">Projects</a>
+                <a href="skills.html">Skills</a>
+                <a href="learning.html">Learning</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+
+        </div>
+    </header>
+
+
+    <main>
+
+        <!-- PAGE INTRO -->
+        <section class="page-hero">
+
+            <p class="section-label">~/PROJECTS</p>
+
+            <h1>
+                Building. Testing.
+                <span style="color: var(--green);">Securing.</span>
+            </h1>
+
+            <p>
+                A collection of completed projects developed through
+                hands-on experimentation, programming and cybersecurity
+                practice.
+            </p>
+
+            <p style="font-family: var(--mono); font-size: 12px; margin-top: 20px; color: var(--green);">
+                [ 02 COMPLETED PROJECTS ]
+            </p>
+
+        </section>
+
+
+        <!-- PROJECTS -->
+        <section class="content-section">
+
+            <div class="project-card">
+
+                <div class="project-card-top">
+                    <span class="project-category">NETWORK SECURITY</span>
+                    <span class="project-status">COMPLETED</span>
+                </div>
+
+                <h3>01. Python Multithreaded Port Scanner</h3>
+
+                <p>
+                    A Python-based TCP port scanner designed to identify
+                    open ports on a target host. It uses socket programming
+                    and concurrent scanning to perform network
+                    reconnaissance efficiently.
+                </p>
+
+                <div class="project-tech">
+                    <span>PYTHON</span>
+                    <span>SOCKET PROGRAMMING</span>
+                    <span>TCP/IP</span>
+                    <span>THREADPOOL</span>
+                    <span>ARGPARSE</span>
+                </div>
+
+                <a class="project-link"
+                   href="https://github.com/Jattin09/Port-Scanner"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    View Source Code ↗
+                </a>
+
+            </div>
+
+
+            <div class="project-card" style="margin-top: 30px;">
+
+                <div class="project-card-top">
+                    <span class="project-category">WEB SECURITY / MACHINE LEARNING</span>
+                    <span class="project-status">COMPLETED</span>
+                </div>
+
+                <h3>02. PhishSentinel</h3>
+
+                <p>
+                    A web-based phishing URL detection application built
+                    with Flask and machine learning. It extracts URL
+                    features, uses a Random Forest model for classification
+                    and provides risk scoring to help assess suspicious URLs.
+                </p>
+
+                <div class="project-tech">
+                    <span>PYTHON</span>
+                    <span>FLASK</span>
+                    <span>SCIKIT-LEARN</span>
+                    <span>RANDOM FOREST</span>
+                    <span>SQLITE</span>
+                </div>
+
+                <div style="display: flex; flex-wrap: wrap; gap: 22px;">
+
+                    <a class="project-link"
+                       href="https://github.com/Jattin09/PhishSentinel"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        View Source Code ↗
+                    </a>
+
+                    <a class="project-link"
+                       href="https://phishsentinel-fea2.onrender.com/"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        Live Application ↗
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- FOOTER MESSAGE -->
+        <section class="home-contact">
+
+            <p class="section-label">~/NEXT_STEPS</p>
+
+            <h2>Learning through building.</h2>
+
+            <p>
+                Every project is an opportunity to understand technology
+                better, solve problems and develop practical skills.
+            </p>
+
+            <a href="contact.html" class="btn btn-primary">
+                Let's Connect ↗
+            </a>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+
+        <div class="footer-content">
+
+            <p>© 2026 Jattin Salotra. All rights reserved.</p>
+
+            <div class="footer-links">
+                <a href="https://github.com/Jattin09"
+                   target="_blank"
+                   rel="noopener noreferrer">GitHub</a>
+
+                <a href="https://www.linkedin.com/in/jattinsalotra-384a031a1/"
+                   target="_blank"
+                   rel="noopener noreferrer">LinkedIn</a>
+            </div>
+
+        </div>
+
+    </footer>
+
+    <script src="js/main.js"></script>
+
+</body>
+</html>
