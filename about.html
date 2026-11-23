@@ -1,25 +1,31 @@
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#0B0B0E">
 
-    <meta name="description" content="Learn about Jattin Salotra, an engineering graduate and cybersecurity enthusiast.">
+    <meta name="description"
+        content="Learn about Jattin Salotra, an engineering graduate and cybersecurity enthusiast.">
 
     <title>About Me | Jattin Salotra</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
 
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
+    <!-- NAVIGATION -->
     <header class="navbar">
+
         <div class="nav-container">
 
             <a href="index.html" class="logo">
@@ -27,42 +33,52 @@
             </a>
 
             <button class="menu-toggle"
-                    aria-label="Toggle navigation"
-                    aria-expanded="false">
+                type="button"
+                aria-label="Toggle navigation"
+                aria-controls="primary-navigation"
+                aria-expanded="false">
+
                 <span></span>
                 <span></span>
                 <span></span>
+
             </button>
 
-            <nav class="nav-links">
+            <nav class="nav-links" id="primary-navigation">
+
                 <a href="index.html">Home</a>
                 <a href="about.html" class="active">About</a>
                 <a href="projects.html">Projects</a>
                 <a href="skills.html">Skills</a>
                 <a href="learning.html">Learning</a>
                 <a href="contact.html">Contact</a>
+
             </nav>
 
         </div>
+
     </header>
 
 
     <main>
 
+        <!-- ABOUT HERO -->
         <section class="about-hero">
 
             <div class="about-hero-inner">
 
-                <!-- ORIGINAL PROFILE PHOTO -->
+                <!-- PROFILE PHOTO -->
                 <div class="about-photo">
+
                     <img
                         src="assets/images/profile.jfif"
                         alt="Portrait of Jattin Salotra"
                     >
+
                 </div>
 
 
-                <!-- ABOUT CONTENT -->
+                <!-- INTRODUCTION -->
                 <div class="about-content">
 
                     <p class="section-label">
@@ -102,8 +118,7 @@
 
                     <div style="margin-top: 30px;">
 
-                        <a href="projects.html"
-                           class="btn btn-primary">
+                        <a href="projects.html" class="btn primary-btn">
                             Explore My Work ↗
                         </a>
 
@@ -116,77 +131,101 @@
         </section>
 
 
-        <!-- BACKGROUND -->
-        <section class="content-section">
+        <!-- BACKGROUND / JOURNEY -->
+        <section class="content-section about-background">
 
-            <p class="section-label">~/BACKGROUND</p>
+            <div class="about-background-inner">
 
-            <h2 style="font-size: 36px; margin: 18px 0 30px;">
-                My journey so far.
-            </h2>
+                <!-- CENTRED HEADING -->
+                <div class="about-background-heading">
 
-            <div class="content-card">
+                    <p class="section-label">
+                        ~/BACKGROUND
+                    </p>
 
-                <p style="color: var(--green); font-family: var(--mono); font-size: 12px;">
-                    EDUCATION
-                </p>
+                    <h2>
+                        My journey so far.
+                    </h2>
 
-                <h3 style="margin: 12px 0;">
-                    B.Tech — Electrical and Electronics Engineering
-                </h3>
+                </div>
 
-                <p style="color: var(--muted);">
-                    Bhagwan Parshuram Institute of Technology
-                    <br>
-                    2019 – 2023
-                </p>
 
-            </div>
+                <!-- EDUCATION CARD -->
+                <article class="content-card">
 
-            <div class="content-card" style="margin-top: 20px;">
+                    <p class="background-category">
+                        EDUCATION
+                    </p>
 
-                <p style="color: var(--green); font-family: var(--mono); font-size: 12px;">
-                    PROFESSIONAL EXPERIENCE
-                </p>
+                    <h3>
+                        B.Tech — Electrical and Electronics Engineering
+                    </h3>
 
-                <h3 style="margin: 12px 0;">
-                    Technical Support
-                </h3>
+                    <p>
+                        Bhagwan Parshuram Institute of Technology
+                        <br>
+                        2019 – 2023
+                    </p>
 
-                <p style="color: var(--muted);">
-                    Teleperformance · October 2025 – Present
-                </p>
+                </article>
 
-                <p style="color: var(--muted); margin-top: 12px;">
-                    Working in technical support, troubleshooting
-                    Windows-related issues and assisting with
-                    connectivity and system-related problems.
-                </p>
+
+                <!-- PROFESSIONAL EXPERIENCE CARD -->
+                <article class="content-card">
+
+                    <p class="background-category">
+                        PROFESSIONAL EXPERIENCE
+                    </p>
+
+                    <h3>
+                        Technical Support
+                    </h3>
+
+                    <p>
+                        Teleperformance · October 2025 – Present
+                    </p>
+
+                    <p class="background-description">
+                        Working in technical support, troubleshooting
+                        Windows-related issues and assisting with
+                        connectivity and system-related problems.
+                    </p>
+
+                </article>
 
             </div>
 
         </section>
 
+
     </main>
 
 
-    <footer class="footer">
+    <!-- FOOTER -->
+    <footer class="site-footer">
 
-        <div class="footer-content">
+        <div class="footer-container">
 
-            <p>© 2026 Jattin Salotra. All rights reserved.</p>
+            <a href="index.html" class="logo">
+                Jattin Salotra<span>.</span>
+            </a>
+
+            <p>
+                © <span data-current-year></span>
+                Jattin Salotra. All rights reserved.
+            </p>
 
             <div class="footer-links">
 
                 <a href="https://github.com/Jattin09"
-                   target="_blank"
-                   rel="noopener noreferrer">
+                    target="_blank"
+                    rel="noopener noreferrer">
                     GitHub
                 </a>
 
                 <a href="https://www.linkedin.com/in/jattinsalotra-384a031a1/"
-                   target="_blank"
-                   rel="noopener noreferrer">
+                    target="_blank"
+                    rel="noopener noreferrer">
                     LinkedIn
                 </a>
 
@@ -196,7 +235,9 @@
 
     </footer>
 
+
     <script src="js/main.js"></script>
 
 </body>
+
 </html>

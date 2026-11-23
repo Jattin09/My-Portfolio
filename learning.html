@@ -1,265 +1,536 @@
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0B0B0E">
 
-    <meta name="description" content="Cybersecurity certifications and learning journey of Jattin Salotra.">
+  <meta name="description"
+    content="Explore Jattin Salotra's cybersecurity learning journey, certifications, TryHackMe achievements and technical development.">
 
-    <title>Learning & Certifications | Jattin Salotra</title>
+  <title>Learning & Certifications | Jattin Salotra</title>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
-<header class="navbar">
+  <!-- ======================================
+       NAVIGATION
+  ======================================= -->
+
+  <header class="navbar">
     <div class="nav-container">
 
-        <a href="index.html" class="logo">
-            Jattin Salotra<span>.</span>
-        </a>
+      <a href="index.html" class="logo">
+        Jattin Salotra<span>.</span>
+      </a>
 
-        <button class="menu-toggle"
-                aria-label="Toggle navigation"
-                aria-expanded="false">
-            <span></span>
-            <span></span>
-            <span></span>
-        </button>
+      <button class="menu-toggle"
+        type="button"
+        aria-label="Toggle navigation"
+        aria-controls="primary-navigation"
+        aria-expanded="false">
 
-        <nav class="nav-links">
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="projects.html">Projects</a>
-            <a href="skills.html">Skills</a>
-            <a href="learning.html" class="active">Learning</a>
-            <a href="contact.html">Contact</a>
-        </nav>
+        <span></span>
+        <span></span>
+
+      </button>
+
+      <nav class="nav-links" id="primary-navigation">
+
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="skills.html">Skills</a>
+        <a href="learning.html">Learning</a>
+        <a href="contact.html">Contact</a>
+
+      </nav>
 
     </div>
-</header>
+  </header>
 
 
-<main>
+  <main>
 
-    <!-- PAGE INTRO -->
+    <!-- ======================================
+         PAGE INTRODUCTION
+    ======================================= -->
+
     <section class="page-hero">
 
-        <p class="section-label">~/LEARNING_JOURNEY</p>
+      <div class="container">
+
+        <span class="section-label">
+          LEARNING JOURNEY
+        </span>
 
         <h1>
-            Learn. Practice.
-            <span style="color: var(--green);">Improve.</span>
+          Learn. Practice.
+          <span class="accent">Improve.</span>
         </h1>
 
         <p>
-            My cybersecurity learning journey through structured
-            courses, certifications and hands-on security labs.
+          My cybersecurity learning journey through structured courses,
+          certifications and hands-on security labs.
         </p>
+
+      </div>
 
     </section>
 
 
-    <!-- COMPLETED CERTIFICATIONS -->
+    <!-- ======================================
+         CERTIFICATIONS
+    ======================================= -->
+
     <section class="content-section">
 
-        <p class="section-label">01 / VERIFIED ACHIEVEMENTS</p>
+      <div class="container">
 
-        <h2 class="cert-section-title">
-            Certifications & Achievements
-        </h2>
+        <div class="section-heading">
+
+          <span class="section-label">
+            01 / VERIFIED ACHIEVEMENTS
+          </span>
+
+          <h2>
+            Certifications &
+            <span class="accent">Achievements</span>
+          </h2>
+
+          <p>
+            Certifications and learning milestones that represent
+            my progress in technology and cybersecurity.
+          </p>
+
+        </div>
+
 
         <div class="certificate-grid">
 
 
-            <!-- TRYHACKME -->
-            <article class="certificate-card">
+          <!-- TRYHACKME CERTIFICATE -->
 
-                <div class="certificate-preview">
+          <article class="certificate-card">
 
-                    <iframe
-                        src="assets/certificates/TryHackMe%20Pre-security%20certificate.pdf#toolbar=0&navpanes=0"
-                        title="TryHackMe Pre Security Certificate">
-                    </iframe>
+            <a
+              class="certificate-preview certificate-open"
+              href="assets/certificates/TryHackMe%20Pre-security%20certificate.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Open TryHackMe Pre Security certificate">
 
-                </div>
+              <span class="certificate-symbol">⌘</span>
 
-                <div class="certificate-info">
+              <span class="certificate-preview-title">
+                TryHackMe
+              </span>
 
-                    <div class="certificate-meta">
-                        <span class="project-category">TRYHACKME</span>
-                        <span class="learning-badge completed">COMPLETED</span>
-                    </div>
+              <span class="certificate-preview-subtitle">
+                Verified learning achievement
+              </span>
 
-                    <h3>Pre Security</h3>
+              <span class="certificate-open-hint">
+                VIEW CERTIFICATE ↗
+              </span>
 
-                    <p>
-                        Successfully completed the TryHackMe Pre Security
-                        learning path, covering foundational technology
-                        and cybersecurity concepts.
-                    </p>
-
-                    <p class="certificate-date">
-                        ISSUED: 01 SEPTEMBER 2026
-                    </p>
-
-                    <a class="certificate-link"
-                       href="assets/certificates/TryHackMe%20Pre-security%20certificate.pdf"
-                       target="_blank"
-                       rel="noopener noreferrer">
-                        View Full Certificate ↗
-                    </a>
-
-                </div>
-
-            </article>
+            </a>
 
 
-            <!-- CISCO -->
-            <article class="certificate-card">
+            <div class="certificate-info">
 
-                <div class="certificate-preview">
+              <div class="certificate-meta">
 
-                    <iframe
-                        src="assets/certificates/Cisco%20operating%20system%20certificate.pdf#toolbar=0&navpanes=0"
-                        title="Cisco Operating Systems Basics Certificate">
-                    </iframe>
-
-                </div>
-
-                <div class="certificate-info">
-
-                    <div class="certificate-meta">
-                        <span class="project-category">CISCO NETWORKING ACADEMY</span>
-                        <span class="learning-badge completed">COMPLETED</span>
-                    </div>
-
-                    <h3>Operating Systems Basics</h3>
-
-                    <p>
-                        Completed Cisco Networking Academy training
-                        in operating systems fundamentals.
-                    </p>
-
-                    <p class="certificate-date">
-                        ISSUED: 05 AUGUST 2026
-                    </p>
-
-                    <a class="certificate-link"
-                       href="assets/certificates/Cisco%20operating%20system%20certificate.pdf"
-                       target="_blank"
-                       rel="noopener noreferrer">
-                        View Full Certificate ↗
-                    </a>
-
-                </div>
-
-            </article>
-
-        </div>
-
-    </section>
-
-
-    <!-- CURRENT LEARNING -->
-    <section class="content-section">
-
-        <p class="section-label">02 / CURRENTLY LEARNING</p>
-
-        <h2 class="cert-section-title">
-            Current Focus
-        </h2>
-
-        <article class="content-card learning-item">
-
-            <div class="learning-item-icon current-icon">↗</div>
-
-            <div class="learning-item-content">
-
-                <p class="project-category">TRYHACKME</p>
-
-                <h3>Cybersecurity 101</h3>
-
-                <p>
-                    Currently progressing through foundational
-                    cybersecurity topics and practical exercises.
-                </p>
-
-                <span class="learning-badge in-progress">
-                    IN PROGRESS
+                <span class="project-category">
+                  TRYHACKME
                 </span>
+
+                <span class="learning-badge completed">
+                  <span class="status-dot"></span>
+                  COMPLETED
+                </span>
+
+              </div>
+
+
+              <h3>
+                Pre Security
+              </h3>
+
+              <p>
+                Successfully completed the TryHackMe Pre Security
+                learning path, covering foundational technology
+                and cybersecurity concepts.
+              </p>
+
+
+              <div class="certificate-meta">
+
+                <span class="certificate-date">
+                  ISSUED: 01 SEPTEMBER 2026
+                </span>
+
+              </div>
+
+
+              <a
+                href="assets/certificates/TryHackMe%20Pre-security%20certificate.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="certificate-link">
+
+                View Full Certificate ↗
+
+              </a>
 
             </div>
 
-            <a href="https://tryhackme.com/p/jattinsalotra9"
-               target="_blank"
-               rel="noopener noreferrer"
-               class="text-link">
-                View Progress ↗
+          </article>
+
+
+
+          <!-- CISCO CERTIFICATE -->
+
+          <article class="certificate-card">
+
+            <a
+              class="certificate-preview certificate-open"
+              href="assets/certificates/Cisco%20operating%20system%20certificate.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Open Cisco Operating Systems Basics certificate">
+
+              <span class="certificate-symbol">◇</span>
+
+              <span class="certificate-preview-title">
+                Cisco Networking Academy
+              </span>
+
+              <span class="certificate-preview-subtitle">
+                Verified learning achievement
+              </span>
+
+              <span class="certificate-open-hint">
+                VIEW CERTIFICATE ↗
+              </span>
+
             </a>
 
-        </article>
 
-    </section>
+            <div class="certificate-info">
 
+              <div class="certificate-meta">
 
-    <!-- LEARNING APPROACH -->
-    <section class="home-contact">
+                <span class="project-category">
+                  CISCO NETWORKING ACADEMY
+                </span>
 
-        <p class="section-label">~/MY_APPROACH</p>
+                <span class="learning-badge completed">
+                  <span class="status-dot"></span>
+                  COMPLETED
+                </span>
 
-        <h2>Beyond certificates.</h2>
-
-        <p>
-            I believe technical skills are built through practice.
-            Alongside structured learning, I work on personal projects,
-            explore security labs and experiment with tools.
-        </p>
-
-        <a href="projects.html" class="btn btn-primary">
-            Explore My Projects ↗
-        </a>
-
-    </section>
-
-</main>
+              </div>
 
 
-<!-- FOOTER -->
-<footer class="footer">
+              <h3>
+                Operating Systems Basics
+              </h3>
 
-    <div class="footer-content">
+              <p>
+                Completed Cisco Networking Academy training in
+                operating systems fundamentals, covering the
+                basic concepts of operating systems.
+              </p>
 
-        <p>© 2026 Jattin Salotra. All rights reserved.</p>
 
-        <div class="footer-links">
+              <div class="certificate-meta">
 
-            <a href="https://github.com/Jattin09"
-               target="_blank"
-               rel="noopener noreferrer">
-                GitHub
-            </a>
+                <span class="certificate-date">
+                  ISSUED: 05 AUGUST 2026
+                </span>
 
-            <a href="https://www.linkedin.com/in/jattinsalotra-384a031a1/"
-               target="_blank"
-               rel="noopener noreferrer">
-                LinkedIn
-            </a>
+              </div>
+
+
+              <a
+                href="assets/certificates/Cisco%20operating%20system%20certificate.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="certificate-link">
+
+                View Full Certificate ↗
+
+              </a>
+
+            </div>
+
+          </article>
+
 
         </div>
 
+      </div>
+
+    </section>
+
+
+
+    <!-- ======================================
+         CURRENT LEARNING
+    ======================================= -->
+
+    <section class="content-section">
+
+      <div class="container">
+
+        <div class="section-heading">
+
+          <span class="section-label">
+            02 / CURRENT FOCUS
+          </span>
+
+          <h2>
+            Currently
+            <span class="accent">Learning</span>
+          </h2>
+
+          <p>
+            My current focus is on strengthening practical
+            cybersecurity skills through structured learning
+            and hands-on exercises.
+          </p>
+
+        </div>
+
+
+        <div class="learning-list">
+
+
+          <!-- CYBERSECURITY 101 -->
+
+          <article class="learning-item">
+
+            <div class="learning-item-icon">
+              THM
+            </div>
+
+            <div class="learning-item-content">
+
+              <span class="project-category">
+                TRYHACKME
+              </span>
+
+              <h3>
+                Cybersecurity 101
+              </h3>
+
+              <p>
+                Building foundational knowledge across networking,
+                Linux, Windows, security concepts and practical
+                cybersecurity exercises.
+              </p>
+
+              <div class="project-tech">
+
+                <span>Networking</span>
+                <span>Linux</span>
+                <span>Windows</span>
+                <span>Security Fundamentals</span>
+
+              </div>
+
+              <a
+                href="https://tryhackme.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="certificate-link">
+
+                Explore TryHackMe ↗
+
+              </a>
+
+            </div>
+
+            <span class="learning-badge in-progress">
+              IN PROGRESS
+            </span>
+
+          </article>
+
+
+
+          <!-- PENETRATION TESTING -->
+
+          <article class="learning-item">
+
+            <div class="learning-item-icon">
+              PT
+            </div>
+
+            <div class="learning-item-content">
+
+              <span class="project-category">
+                OFFENSIVE SECURITY
+              </span>
+
+              <h3>
+                Penetration Testing
+              </h3>
+
+              <p>
+                Developing practical skills in reconnaissance,
+                enumeration, vulnerability identification and
+                understanding exploitation in authorised lab
+                environments.
+              </p>
+
+              <div class="project-tech">
+
+                <span>Nmap</span>
+                <span>Enumeration</span>
+                <span>Burp Suite</span>
+                <span>Web Security</span>
+
+              </div>
+
+              <span class="certificate-link">
+                Practical lab learning
+              </span>
+
+            </div>
+
+            <span class="learning-badge in-progress">
+              IN PROGRESS
+            </span>
+
+          </article>
+
+
+
+          <!-- RED TEAMING -->
+
+          <article class="learning-item">
+
+            <div class="learning-item-icon">
+              RT
+            </div>
+
+            <div class="learning-item-content">
+
+              <span class="project-category">
+                LONG-TERM FOCUS
+              </span>
+
+              <h3>
+                Red Teaming & Offensive Security
+              </h3>
+
+              <p>
+                Working towards a deeper understanding of
+                adversary simulation, attack paths, web
+                application security and offensive security
+                methodologies.
+              </p>
+
+              <div class="project-tech">
+
+                <span>Red Teaming</span>
+                <span>Web Security</span>
+                <span>Reconnaissance</span>
+                <span>Security Labs</span>
+
+              </div>
+
+            </div>
+
+            <span class="learning-badge in-progress">
+              LEARNING
+            </span>
+
+          </article>
+
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- ======================================
+         CLOSING SECTION
+    ======================================= -->
+
+    <section class="home-contact">
+
+      <span class="section-label">
+        03 / WHAT'S NEXT
+      </span>
+
+      <h2>
+        Learning never stops.
+        <span class="accent">Neither does curiosity.</span>
+      </h2>
+
+      <p>
+        Every new concept, challenge and project is another
+        opportunity to improve my technical understanding.
+      </p>
+
+      <a href="projects.html" class="primary-btn">
+        Explore My Projects ↗
+      </a>
+
+    </section>
+
+
+  </main>
+
+
+  <!-- ======================================
+       FOOTER
+  ======================================= -->
+
+  <footer class="site-footer">
+
+    <div class="footer-container">
+
+      <a href="index.html" class="logo">
+        Jattin Salotra<span>.</span>
+      </a>
+
+      <p>
+        © <span data-current-year></span>
+        Jattin Salotra. Built with curiosity.
+      </p>
+
+      <div class="footer-links">
+
+        <a
+          href="https://github.com/Jattin09"
+          target="_blank"
+          rel="noopener noreferrer">
+          GitHub
+        </a>
+
+        <a href="contact.html">
+          Contact
+        </a>
+
+      </div>
+
     </div>
 
-</footer>
+  </footer>
 
-<script src="js/main.js"></script>
+
+  <script src="js/main.js"></script>
 
 </body>
 </html>

@@ -2,294 +2,375 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <meta name="description" content="Jattin Salotra - Cybersecurity Enthusiast. Exploring networking, information security and offensive security through practical projects and security labs.">
-
-    <meta name="author" content="Jattin Salotra">
-
-    <title>Jattin Salotra | Cybersecurity Portfolio</title>
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0B0B0E">
+  <meta name="description" content="Jattin Salotra — Cybersecurity enthusiast exploring penetration testing, networking and offensive security.">
+  <title>Jattin Salotra | Cybersecurity Portfolio</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
-    <!-- NAVIGATION -->
-    <header class="navbar">
-        <div class="nav-container">
+  <!-- NAVIGATION -->
+  <header class="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="logo">Jattin Salotra<span>.</span></a>
 
-            <a href="index.html" class="logo">
-                Jattin Salotra<span>.</span>
-            </a>
+      <button class="menu-toggle" type="button"
+        aria-label="Toggle navigation"
+        aria-controls="primary-navigation"
+        aria-expanded="false">
+        <span></span>
+        <span></span>
+      </button>
 
-            <button class="menu-toggle"
-                    aria-label="Toggle navigation"
-                    aria-expanded="false">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
+      <nav class="nav-links" id="primary-navigation">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="skills.html">Skills</a>
+        <a href="learning.html">Learning</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
 
-            <nav class="nav-links">
-                <a href="index.html" class="active">Home</a>
-                <a href="about.html">About</a>
-                <a href="projects.html">Projects</a>
-                <a href="skills.html">Skills</a>
-                <a href="learning.html">Learning</a>
-                <a href="contact.html">Contact</a>
-            </nav>
+  <main>
 
+    <!-- HERO -->
+    <section class="redteam-hero container">
+
+      <div class="hero-copy" data-reveal>
+        <span class="eyebrow">CYBERSECURITY · NETWORKING · RED TEAMING</span>
+
+        <h1>
+          Understanding systems.
+          <span class="accent">Exploring security.</span>
+        </h1>
+
+        <p>
+          I'm Jattin Salotra, a cybersecurity enthusiast with an engineering
+          background. I enjoy understanding how systems work, exploring
+          vulnerabilities and building practical security projects.
+        </p>
+
+        <div class="hero-actions">
+          <a href="projects.html" class="primary-btn">
+            Explore my projects <span>↗</span>
+          </a>
+
+          <a href="about.html" class="secondary-btn">
+            More about me
+          </a>
         </div>
-    </header>
 
+        <div class="hero-meta">
+          <span><i class="status-dot"></i> Learning and building</span>
+          <span>Based in India</span>
+        </div>
+      </div>
 
-    <!-- HERO SECTION -->
-    <main>
+      <!-- OPERATIONS VISUAL -->
+      <div class="hero-visual" data-reveal>
+        <div class="ops-window">
 
-        <section class="hero">
+          <div class="ops-window-header">
+            <div class="window-dots">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <small>SECURITY / OPERATIONS</small>
+            <small>SYS.01</small>
+          </div>
 
-            <div class="hero-content">
+          <div class="ops-metric-grid">
 
-                <div class="hero-label">
-                    <span class="status-dot"></span>
-                    CYBERSECURITY / PERSONAL PORTFOLIO
-                </div>
-
-                <p class="hero-intro">
-                    HELLO, I'M JATTIN SALOTRA
-                </p>
-
-                <h1>
-                    Understanding systems.
-                    <span>Exploring security.</span>
-                </h1>
-
-                <p class="hero-description">
-                    I'm an engineering graduate and cybersecurity enthusiast
-                    interested in networking, information security and
-                    offensive security. This is where I document my journey
-                    through practical projects, security labs and continuous
-                    learning.
-                </p>
-
-                <div class="hero-buttons">
-
-                    <a href="projects.html" class="btn btn-primary">
-                        Explore Projects ↗
-                    </a>
-
-                    <a href="about.html" class="btn btn-secondary">
-                        About Me
-                    </a>
-
-                </div>
-
-
-                <!-- CURRENT FOCUS -->
-                <div class="current-focus">
-
-                    <p class="section-label">
-                        ~/CURRENT_FOCUS
-                    </p>
-
-                    <div class="focus-tags">
-                        <span>NETWORKING</span>
-                        <span>PYTHON</span>
-                        <span>LINUX</span>
-                        <span>CYBERSECURITY</span>
-                    </div>
-
-                </div>
-
+            <div class="ops-metric">
+              <small>Focus area</small>
+              <strong>Red Team</strong>
             </div>
 
-        </section>
-
-
-        <!-- FEATURED PROJECT -->
-        <section class="featured-section">
-
-            <div class="section-heading">
-
-                <p class="section-label">
-                    ~/SELECTED_WORK
-                </p>
-
-                <h2>
-                    Projects built through practice.
-                </h2>
-
-                <p>
-                    Practical experiments and tools developed while
-                    learning cybersecurity and networking.
-                </p>
-
+            <div class="ops-metric">
+              <small>Environment</small>
+              <strong class="metric-good">LAB / ONLINE</strong>
             </div>
 
-
-            <div class="project-card">
-
-                <div class="project-card-top">
-
-                    <span class="project-category">
-                        NETWORK SECURITY
-                    </span>
-
-                    <span class="project-status">
-                        COMPLETED
-                    </span>
-
-                </div>
-
-                <h3>
-                    Python Multithreaded Port Scanner
-                </h3>
-
-                <p>
-                    A Python-based TCP port scanner that identifies open
-                    ports on a target host using socket programming and
-                    concurrent scanning.
-                </p>
-
-                <div class="project-tech">
-                    <span>PYTHON</span>
-                    <span>SOCKET PROGRAMMING</span>
-                    <span>TCP/IP</span>
-                    <span>THREADING</span>
-                </div>
-
-                <a href="https://github.com/Jattin09/Port-Scanner"
-                   target="_blank"
-                   rel="noopener noreferrer"
-                   class="project-link">
-                    View on GitHub ↗
-                </a>
-
+            <div class="ops-metric">
+              <small>Networking</small>
+              <strong>TCP/IP</strong>
             </div>
 
-            <div class="section-footer">
-                <a href="projects.html" class="text-link">
-                    View all projects →
-                </a>
+            <div class="ops-metric">
+              <small>Approach</small>
+              <strong>Hands-on</strong>
             </div>
 
-        </section>
+          </div>
 
+          <div class="ops-terminal">
+            <div class="terminal-label">TERMINAL SESSION</div>
 
-        <!-- LEARNING SECTION -->
-        <section class="learning-section">
+            <p class="terminal-command">$ whoami</p>
+            <p>jattin@security-lab</p>
 
-            <div class="section-heading">
+            <p class="terminal-command">$ current_focus</p>
+            <p>Penetration Testing / Web Security</p>
 
-                <p class="section-label">
-                    ~/CURRENT_LEARNING
-                </p>
+            <p class="terminal-command">$ learning_status</p>
+            <p class="terminal-success">[+] Continuously learning</p>
 
-                <h2>
-                    Always learning. Always exploring.
-                </h2>
-
-                <p>
-                    Building a strong foundation in cybersecurity through
-                    structured learning, hands-on labs and practical
-                    experimentation.
-                </p>
-
-            </div>
-
-            <div class="learning-card">
-
-                <div>
-                    <span class="learning-category">
-                        HANDS-ON LEARNING
-                    </span>
-
-                    <h3>
-                        TryHackMe
-                    </h3>
-
-                    <p>
-                        Working through cybersecurity learning paths,
-                        networking fundamentals, enumeration and
-                        penetration testing concepts.
-                    </p>
-                </div>
-
-                <a href="https://tryhackme.com/p/jattinsalotra9"
-                   target="_blank"
-                   rel="noopener noreferrer"
-                   class="text-link">
-                    View Profile ↗
-                </a>
-
-            </div>
-
-        </section>
-
-
-        <!-- CONTACT PREVIEW -->
-        <section class="home-contact">
-
-            <p class="section-label">
-                ~/GET_IN_TOUCH
-            </p>
-
-            <h2>
-                Let's connect.
-            </h2>
-
-            <p>
-                Interested in cybersecurity, technology and learning
-                opportunities? Feel free to reach out.
-            </p>
-
-            <a href="contact.html" class="btn btn-primary">
-                Contact Me ↗
-            </a>
-
-        </section>
-
-    </main>
-
-
-    <!-- FOOTER -->
-    <footer class="footer">
-
-        <div class="footer-content">
-
-            <p>
-                © 2026 Jattin Salotra. All rights reserved.
-            </p>
-
-            <div class="footer-links">
-
-                <a href="https://github.com/Jattin09"
-                   target="_blank"
-                   rel="noopener noreferrer">
-                    GitHub
-                </a>
-
-                <a href="https://www.linkedin.com/in/jattinsalotra-384a031a1/"
-                   target="_blank"
-                   rel="noopener noreferrer">
-                    LinkedIn
-                </a>
-
-            </div>
+            <p class="terminal-command">$ next_step</p>
+            <p>Build. Test. Document. Improve.</p>
+          </div>
 
         </div>
 
-    </footer>
+        <div class="floating-tag floating-tag-one">
+          ◈ SECURITY RESEARCH
+        </div>
 
+        <div class="floating-tag floating-tag-two">
+          <i class="status-dot"></i> LAB ENVIRONMENT
+        </div>
+      </div>
 
-    <script src="js/main.js"></script>
+    </section>
 
+    <!-- DASHBOARD / ABOUT -->
+    <section class="dashboard-section container">
+
+      <div class="section-heading" data-reveal>
+        <span class="section-label">01 / EXPLORE</span>
+        <h2>A little about my <span class="accent">world.</span></h2>
+        <p>
+          My journey through technology, networking and cybersecurity —
+          one project and one practical challenge at a time.
+        </p>
+      </div>
+
+      <div class="dashboard-grid">
+
+        <a href="about.html" class="dashboard-card dashboard-card-large">
+          <div>
+            <div class="card-icon">01</div>
+            <span class="section-label">THE PERSON</span>
+            <h3>Engineering mindset. Security curiosity.</h3>
+            <p>
+              Discover my background, education, experience and the journey
+              that brought me into cybersecurity.
+            </p>
+          </div>
+          <span class="card-arrow">↗</span>
+        </a>
+
+        <a href="projects.html" class="dashboard-card">
+          <div>
+            <div class="card-icon">02</div>
+            <span class="section-label">BUILDING</span>
+            <h3>Projects</h3>
+            <p>
+              Practical tools and experiments built while learning
+              security concepts.
+            </p>
+          </div>
+          <span class="card-arrow">↗</span>
+        </a>
+
+        <a href="skills.html" class="dashboard-card">
+          <div>
+            <div class="card-icon">03</div>
+            <span class="section-label">TECH STACK</span>
+            <h3>Skills</h3>
+            <p>
+              Networking, programming, operating systems and
+              cybersecurity tools.
+            </p>
+          </div>
+          <span class="card-arrow">↗</span>
+        </a>
+
+        <a href="learning.html" class="dashboard-card">
+          <div>
+            <div class="card-icon">04</div>
+            <span class="section-label">PROGRESS</span>
+            <h3>Learning & certifications</h3>
+            <p>
+              Courses, certifications, labs and practical learning
+              milestones.
+            </p>
+          </div>
+          <span class="card-arrow">↗</span>
+        </a>
+
+        <a href="contact.html" class="dashboard-card dashboard-card-contact">
+          <div>
+            <div class="card-icon">05</div>
+            <span class="section-label">GET IN TOUCH</span>
+            <h3>Let's connect.</h3>
+            <p>
+              Open to meaningful conversations, collaboration
+              and opportunities in cybersecurity.
+            </p>
+          </div>
+          <span class="card-arrow">↗</span>
+        </a>
+
+      </div>
+    </section>
+
+    <!-- FEATURED PROJECT -->
+    <section class="featured-section container">
+
+      <div class="section-heading" data-reveal>
+        <span class="section-label">02 / SELECTED WORK</span>
+        <h2>Turning curiosity into <span class="accent">code.</span></h2>
+        <p>
+          A look at some of the practical projects I've worked on.
+        </p>
+      </div>
+
+      <div class="featured-project" data-reveal>
+
+        <div class="project-visual">
+          <div class="scanner-illustration">
+
+            <div class="terminal-header">
+              <div class="terminal-dots">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+              <small class="terminal-label">PORT SCANNER</small>
+            </div>
+
+            <p class="terminal-line">$ python scanner.py</p>
+            <p class="terminal-line">Initializing scan...</p>
+            <p class="terminal-line terminal-success">[+] Scan started</p>
+
+            <div class="scanner-bar">
+              <span style="width: 82%"></span>
+            </div>
+
+            <p class="terminal-line">Checking TCP ports...</p>
+            <p class="terminal-line terminal-success">[+] Scan complete</p>
+
+          </div>
+        </div>
+
+        <div class="project-details">
+          <span class="project-category">PYTHON · NETWORKING</span>
+
+          <h3>Multithreaded Port Scanner</h3>
+
+          <p>
+            A Python-based network scanning tool designed to identify
+            open TCP ports using socket programming and concurrent
+            execution.
+          </p>
+
+          <div class="project-tech">
+            <span>Python</span>
+            <span>Socket</span>
+            <span>Threading</span>
+            <span>Networking</span>
+          </div>
+
+          <a href="https://github.com/Jattin09/Port-Scanner"
+             target="_blank" rel="noopener noreferrer"
+             class="project-link">
+            View on GitHub ↗
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- LEARNING -->
+    <section class="learning-section container">
+
+      <div class="section-heading" data-reveal>
+        <span class="section-label">03 / CURRENT DIRECTION</span>
+        <h2>Always learning. <span class="accent">Always testing.</span></h2>
+        <p>
+          Building a stronger foundation through structured learning
+          and hands-on cybersecurity labs.
+        </p>
+      </div>
+
+      <div class="learning-item" data-reveal>
+        <div class="learning-item-icon">THM</div>
+
+        <div class="learning-item-content">
+          <h3>TryHackMe — Cybersecurity learning paths</h3>
+          <p>
+            Working through practical exercises in networking,
+            enumeration, Linux, web security and penetration testing.
+          </p>
+
+          <div class="project-tech">
+            <span>Pre Security</span>
+            <span>Cybersecurity 101</span>
+            <span>Penetration Testing</span>
+          </div>
+
+          <a href="https://tryhackme.com/"
+             target="_blank" rel="noopener noreferrer"
+             class="certificate-link">
+            Explore TryHackMe ↗
+          </a>
+        </div>
+
+        <span class="learning-badge in-progress">IN PROGRESS</span>
+      </div>
+
+    </section>
+
+    <!-- CONTACT CTA -->
+    <section class="home-contact" data-reveal>
+      <span class="section-label">04 / CONTACT</span>
+
+      <h2>
+        Have an interesting opportunity?
+        <span class="accent">Let's talk.</span>
+      </h2>
+
+      <p>
+        Whether it's a cybersecurity opportunity, technical discussion
+        or collaboration, I'd be happy to connect.
+      </p>
+
+      <a href="contact.html" class="primary-btn">
+        Get in touch ↗
+      </a>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="footer-container">
+
+      <a href="index.html" class="logo">
+        Jattin Salotra<span>.</span>
+      </a>
+
+      <p>© <span data-current-year></span> Jattin Salotra. Built with curiosity.</p>
+
+      <div class="footer-links">
+        <a href="https://github.com/Jattin09"
+           target="_blank" rel="noopener noreferrer">GitHub</a>
+
+        <a href="https://www.linkedin.com/"
+           target="_blank" rel="noopener noreferrer">LinkedIn</a>
+
+        <a href="contact.html">Contact</a>
+      </div>
+
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
 </body>
 </html>
